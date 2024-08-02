@@ -13,3 +13,23 @@ h1 {
 :root {
     font-family: 'arial';
 }
+
+.wood_header {
+    background-image: url(./images/header-bg.png);
+    color: #FFA500;
+}
+
+.header_box {
+    width: 960px;
+    border: 30px solid #FFA500;
+    padding: 90px;
+    background-image: url(./images/container-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 84px top 84px;
+}
+
+.header_box h1 {
+    font-size: 32px;
+    letter-spacing: 0.19em;
+}
+
