@@ -1,0 +1,15 @@
+/* RESET */
+body, p {
+    margin: unset;
+}
+
+h1 {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+/*Design*/
+:root {
+    font-family: 'arial';
+}
