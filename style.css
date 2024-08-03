@@ -69,21 +69,30 @@ h1 {
 
 .contents_box {
     width: 300px;
-    /* background-color: #FFA500; */
     border-radius: 6px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contents_box .contents_image {
     border-radius: 6px 6px 0 0;
-    border-bottom: 4px solid #FFA500;
+    /* border-bottom: 4px solid #FFA500; */
 }
+
+.contents_text_box::before {
+    content: ' ';
+    display: block;
+    width: 300px;
+    height: 4px;
+    background-color: #FFA500;
+}
+
 
 .contents_text_box {
     background-color: white;
     height: 50px;
-    padding-left: 10px;
+    text-indent: 10px;
     font-weight: bold;
     line-height: 50px;
     border-radius: 0 0 6px 6px;
