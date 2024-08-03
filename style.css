@@ -68,12 +68,16 @@ h1 {
 }
 
 .contents_box {
-    background-color: #FFA500;
+    width: 300px;
+    /* background-color: #FFA500; */
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
 }
 
-.contents_box img {
+.contents_box .contents_image {
     border-radius: 6px 6px 0 0;
+    border-bottom: 4px solid #FFA500;
 }
 
 .contents_text_box {
