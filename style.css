@@ -12,24 +12,79 @@ h1 {
 /*Design*/
 :root {
     font-family: 'arial';
+    color: #FFA500;
 }
 
 .wood_header {
     background-image: url(./images/header-bg.png);
-    color: #FFA500;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
 }
 
 .header_box {
+    box-sizing: border-box;
     width: 960px;
     border: 30px solid #FFA500;
-    padding: 90px;
+    border-bottom: none;
+    padding: 60px 60px 70px 60px; 
+    margin: 100px auto 0;
     background-image: url(./images/container-bg.png);
     background-repeat: no-repeat;
-    background-position: right 84px top 84px;
-}
+    background-position: right 54px top 54px;
+} 
 
 .header_box h1 {
     font-size: 32px;
     letter-spacing: 0.19em;
 }
 
+.header_box h1::after {
+    content: ' ';
+    display: block;
+    background-color: #FFA500;
+    width: 373px;
+    height: 4px;
+    border-radius: 4px;
+    margin-bottom: 26px;
+}
+
+.header_box p {
+    line-height: 1.6em;
+    width: 482px;
+}
+
+.wood_main {
+    background-color: #DDDDDD;
+    padding: 1px;
+}
+
+.wood_contents {
+    width: 960px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contents_box {
+    background-color: #FFA500;
+    border-radius: 6px;
+}
+
+.contents_box img {
+    border-radius: 6px 6px 0 0;
+}
+
+.contents_text_box {
+    background-color: white;
+    height: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 0 0 6px 6px;
+}
+
+.contents_text_box img {
+    float: right;
+}
