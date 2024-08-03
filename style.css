@@ -88,3 +88,14 @@ h1 {
 .contents_text_box img {
     float: right;
 }
+
+.wood_footer {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.29em;
+    text-align: center;
+    border-top: 2px solid #AAAAAA;
+    height: 52px;
+    line-height: 52px;
+}
